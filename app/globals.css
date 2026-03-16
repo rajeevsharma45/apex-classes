@@ -992,6 +992,25 @@ body {
   flex-shrink: 0;
 }
 
+@media (max-width: 639px) {
+  .admission-form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   /* makes both input and button full width */
+    width: 100%;
+  }
+
+  .admission-input {
+    width: 100%;
+  }
+
+  .btn-white {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 .admission-input {
   width: 230px;
   padding: 14px 18px;
